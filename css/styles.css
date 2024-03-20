@@ -1,21 +1,21 @@
-body {
+/* body {
   margin: 0;
   padding-bottom: 100px;
-}
-
+} */
+/* 
 header {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 10px;
-  /* position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: auto;
   display: inline-flex;
   justify-content: space-between;
-  align-items: center; */
-}
+  align-items: center; 
+} */
 
 .logo {
   order: 0;
@@ -29,40 +29,40 @@ h1 {
   margin: 0; 
 }
 
-nav {
+/* nav {
   background-color: #333;
   padding: 10px;
   text-align: center;
   padding: 10px;
-  /* position: fixed;
+  position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%; */
-}
+  width: 100%;
+} */
 
-nav ul {
+/* nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+} */
 
-nav li {
+/* nav li {
   display: inline;
-}
+} */
 
-nav a {
+/* nav a {
   color:white;
   text-decoration: none;
   padding: 10px;
-}
+} */
 
-nav a:hover {
+/* nav a:hover {
   background-color: #555;
-}
+} */
 
-main {
+/* main {
   margin: 10px 20px 20px 20px;
-}
+} */
 
 footer {
   background-color: #333;
