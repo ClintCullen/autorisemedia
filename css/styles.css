@@ -85,8 +85,10 @@ body {
 }
 
 .row {
-  min-height: 200px;
+  min-height: 150px; 
+  margin-bottom:30px;
 }
+
 .parallax {
   background-image: url(../images//pexels-fauxels-3182826.jpg);
   /* image height */
@@ -149,7 +151,7 @@ body {
 
 #footer-content {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   left: 0;
   width: 100%;
   text-align: center;
@@ -185,6 +187,7 @@ main {
 
 h1,
 h2,
+h3,
 p {
   text-align: center;
 }
