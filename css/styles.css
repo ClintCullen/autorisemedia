@@ -118,13 +118,13 @@ body {
   z-index: -1;
 }
 
-#navigation-bar-container  a.navbar-brand,
-#navbar ul a{
+#navigation-bar-container a.navbar-brand,
+#navbar ul a {
   font-weight:500; 
 }
 
 #navigation-bar-container a.navbar-brand {
-  font-size: 2.0rem;
+  font-size: 1.5rem;
 }
 
 #navbar ul a {
@@ -132,7 +132,7 @@ body {
 }
 
 #navigation-bar-container {
-  margin: 10px auto;
+  margin: auto;
   border-radius: 10px;
 }
 
