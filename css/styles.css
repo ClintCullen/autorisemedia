@@ -70,8 +70,6 @@ body {
   font-family: "Cormorant Garamond", serif;
   color:white;
   display:table;
-  /* font-size: 10px; */
-
   /* for cover shading */
   position: relative;
   min-height: 100%;
@@ -79,37 +77,36 @@ body {
   background-image: url("../images/pexels-fauxels-3182826.jpg"); 
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-attachment: left top; 
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   z-index: 0;
 }
 
+.fill-space {
+  min-height: calc(100vh - 145px);
+  padding-top: 20px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding: 20px 0;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+}
+
+.fill-space {
+  min-height: 100vh;
+  position: relative;
+}
+
 .row {
-  min-height: 150px; 
-  margin-bottom:30px;
+  padding-bottom: 12px;
+  margin: 1.5rem;
 }
-
-.parallax {
-  background-image: url(../images//pexels-fauxels-3182826.jpg);
-  /* image height */
-  /* min-height: 500px; */
-  height: 100%;
-
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-/* turn effect off */
-/* @media only screen and (max-device-width: 1366px){
-  .parallax{
-    background-attachment: scroll;
-  }
-} */
 
 #cover {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
   top: 0;
@@ -131,100 +128,8 @@ body {
   font-size: 1.5rem;
 }
 
-#navigation-bar-container {
-  margin: auto;
-  border-radius: 10px;
-}
-
 @media (min-width: 768px) {
   #navigation-bar-container {
     width: 50%;
   }
-}
-
-#center-content {
-  width: 80%;
-  display:table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-#footer-content {
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  width: 100%;
-  text-align: center;
-}
-
-
-header img {
-  /* border: 1px solid gray; */
-  height: 75px;
-  width: 100%;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: rgb(162, 178, 182);
-}
-
-.navbar a {
-  font-size: 24px;
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-main {
-  top: 2;
-  margin-top: 20px;
-  width: auto;
-  color: rgb(172, 25, 25);
-  /*border: 1px solid blue;*/
-}
-
-h1,
-h2,
-h3,
-p {
-  text-align: center;
-}
-
-.first-container {
-  height: 800px;
-  /* background-image: url('../images/pexels-fauxels-3182826.jpg'); */
-  /* opacity: 50%; */
-
-  /* background-size: cover; */
-  /* padding: 20px; */
-  /* margin: 20px; */
-  /* background-color: rgb(255, 255, 255); */
-  color: white;
-}
-
-.first-container p {
-  font-size: 26px;
-}
-
-.story-container {
-  display: flex;
-}
-
-.story-column {
-  flex: 1;
-  padding: 20px;
-}
-
-.story-column:nth-child(odd) {
-  background-color: #f0f0f0;
-}
-
-.story-column:nth-child(even) {
-  background-attachment: #e0e0e0;
-}
-
-.story-column+.story-column {
-  margin-left: 20px;
 }
